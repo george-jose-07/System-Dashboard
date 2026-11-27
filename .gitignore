@@ -1,0 +1,19 @@
+# Runtime data the dashboard creates next to the script. It holds personal
+# information (device names, IP addresses, network history), so never publish it.
+MonitorData/
+
+# Logs, compressed history, backups and temporary files
+*.log
+*.gz
+*.bak
+*.tmp
+backup_*
+
+# Local test output
+render/
+
+# Windows and editors
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
